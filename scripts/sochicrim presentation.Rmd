@@ -1,0 +1,132 @@
+---
+title: "El **Efecto prisión**  y la responsabilización de las prisiones"
+subtitle: "SOCHICRIM"
+author: "Ana Morales-Gómez"
+#date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    nature:
+      seal: false
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: true
+---
+
+class: inverse, center, middle
+
+# Get Started
+
+---
+
+# El efecto del encarcelamiento
+
+### En el encarcelado#
+
+--
+
+- Perdida de: libertad, autonomia, seguridad, posesiones materiales y "celibato involuntario" (Sykes, 1958)
+
+--
+
+- Picologicos, salud mental, bienestar (Focault)
+
+--
+
+- Perdida de vinculo familiar
+
+--
+
+- Reincidencia / Desestimiento
+
+--
+
+### En las familias  (Murray, 2005; Minson, 2020; Jardine, 2020)
+
+--
+
+- Economico
+
+--
+
+- Bienestar emocional, estigma, verguenza
+
+--
+
+- Abandono de los ninos 
+
+--
+
+.center[**Effecto general del encarcelamiento**.] 
+
+
+---
+## 'Desenrredando' el efecto del encarcelamiento
+El efecto del encarcelamiento no es una experiencia uniforme, No existe un **unico** efecto del encarcelamiento
+
+### Clima de las del prisiones (Camp and Gaes, 2005)
+- Cultura de los internos --> contexto, antecdentes de los internos
+- Regimen de las prisiones --> Condiciones de las prisiones, staff, servicios, programas, relaciones staff/internos, etc.
+
+- Existen diferencias en el clima y 'desempeno moral' de las prisiones *some prisons are more survivable than others* (Liebling, 2011)
+
+- El problema del **efecto agregado** del ncarcelamiento  
+'*Cuando se analiza el efecto del encarcelamiento, Las variaciones del efecto que tienen en los individuos quedan **escondidas**'* (Van Ginneken, 2016)
+
+Existen diferencias entre el efecto del encarcelamiento y el efecto de la carcel
+
+---
+# El efecto de la carcel: 'Prison-specific effect'
+
+
+El efecto agregado de la interaccion de los componentes del clima de las prisiones en los individuos
+
+.center[*La **contribucion adicional** de cada prision como entidad a un 'outocome' individual de los internos que cumplen condena en dicho centro*.]
+
+
+
+---
+# Usar dos columnas
+
+Como hacer listas de columnas
+
+.pull-left[
+1. uno;
+
+1. dos;
+
+]
+
+.pull-right[
+1. ono;
+
+1. dos;
+
+]
+---
+
+# R Code
+
+```{r comment='#'}
+# a boring regression
+fit = lm(dist ~ 1 + speed, data = cars)
+coef(summary(fit))
+dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
+grep('天', dojutsu, value = TRUE)
+```
+
+---
+
+# R Plots
+
+```{r cars, fig.height=4, dev='svg'}
+par(mar = c(4, 4, 1, .1))
+plot(cars, pch = 19, col = 'darkgray', las = 1)
+abline(fit, lwd = 2)
+```
+
+---
+
+
+
+
+
