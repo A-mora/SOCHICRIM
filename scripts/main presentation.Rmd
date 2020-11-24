@@ -18,11 +18,16 @@ class: inverse, center, middle
 # Get Started
 
 ---
+
 # El efecto del encarcelamiento
-The effect of imprisonment
-- Mental
-- Familiar
+## En el encarcelado
+- Perdida de libertad, autonomia, "celibato involuntario", material and seguridad (Sykes, 1958)
+- Picologicos, salud mental, bienestar (Focault)
+- Perdida de vinculo familiar Familiar
 - Reincidencia / Desestimiento
+
+## En las familias
+- 
 
 
 ---

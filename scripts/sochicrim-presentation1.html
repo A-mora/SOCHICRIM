@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>El Efecto prisión y la responsabilización de las prisiones</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ana Morales-Gómez" />
+    <link href="sochicrim-presentation1_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="sochicrim-presentation1_files/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# El <strong>Efecto prisión</strong> y la responsabilización de las prisiones
+## SOCHICRIM
+### Ana Morales-Gómez
+
+---
+
+
+class: inverse, center, middle
+
+# Get Started
+
+---
+
+## El efecto del encarcelamiento
+
+### En el encarcelado
+
+--
+
+- Perdida de: libertad, autonomia, seguridad, posesiones materiales y "celibato involuntario" (Sykes, 1958)
+
+--
+
+- Psicologicos, salud mental, bienestar (Focault)
+
+--
+
+- Perdida de vinculo familiar
+
+--
+
+- Reincidencia / Desestimiento
+
+--
+
+### En las familias  (Murray, 2005; Minson, 2020; Jardine, 2020)
+
+--
+
+- Economico
+
+--
+
+- Bienestar emocional, estigma, verguenza
+
+--
+
+- Abandono de los ninos 
+
+--
+
+.center[**Effecto general del encarcelamiento**.] 
+
+
+---
+## 'Desenredando' el efecto del encarcelamiento
+El efecto del encarcelamiento no es una experiencia uniforme, No existe un **unico** efecto del encarcelamiento
+
+### Clima de las del prisiones (Wright, 1985; Clark, 1995; Camp &amp; Gaes, 2005)
+- Cultura de los internos --&gt; contexto, antecedentes de los internos
+- Regimen de las prisiones --&gt; Condiciones de las prisiones, staff, servicios, programas, relaciones staff/internos, etc.
+
+- Existen diferencias en el clima y 'desempeno moral' de las prisiones *some prisons are more survivable than others* (Liebling, 2011)
+
+- El problema del **efecto agregado** del ncarcelamiento  
+'*Cuando se analiza el efecto del encarcelamiento, Las variaciones del efecto que tienen en los individuos quedan **escondidas**'* (Van Ginneken, 2016)
+
+Existen diferencias entre el efecto del encarcelamiento y el efecto de la carcel
+
+---
+## El efecto de la carcel: 'Prison-specific effect'
+
+
+El efecto agregado de la interaccion de los componentes del clima de las prisiones en los individuos
+
+.center[*Prison effects can be understood as the **added contribution** to an individual (prisoner) outcome that is **exclusively attributable to a particular prison**, beyond what can be expected solely based on individual characteristics*. (Morales-Gomez, 2018, p. 108)] 
+
+&lt;img src="https://github.com/A-mora/SOCHICRIM/blob/main/figures/prison%20effect.png?raw=true" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+
+layout: true
+
+##trial 
+
+---
+.center[Poblacion penal].
+&lt;img src="https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/all_data.png" width="70%" style="display: block; margin: auto;" /&gt;
+---
+.center[Clonglomerados de prisiones].
+&lt;img src="https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/cluster_prison.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[Variacion dentro de los conglomerados]
+&lt;img src="https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/cluster_prison_offence.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[El efecto del encarcelamiento en la reincidencia]
+&lt;img src="https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/reci_single.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[El efecto especifico de la carcel en la reincidencia]
+&lt;img src="https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/reci_varying.png" width="80%" style="display: block; margin: auto;" /&gt;
+---
+layout: false
+
+##El analisis multinivel para estudiar las prisiones
+---
+## Reincidencia
+
+
+---
+
+## casos de chile 1
+---
+
+## casos de chile 2
+---
+por que es necesario?
+---
+Conclusion/ Discussion
+---
+# Usar dos columnas
+
+Como hacer listas de columnas
+
+.pull-left[
+1. uno;
+
+1. dos;
+
+]
+
+.pull-right[
+1. ono;
+
+1. dos;
+
+]
+---
+
+# R Code
+
+
+```r
+# a boring regression
+fit = lm(dist ~ 1 + speed, data = cars)
+coef(summary(fit))
+```
+
+```
+#               Estimate Std. Error   t value     Pr(&gt;|t|)
+# (Intercept) -17.579095  6.7584402 -2.601058 1.231882e-02
+# speed         3.932409  0.4155128  9.463990 1.489836e-12
+```
+
+```r
+dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
+grep('天', dojutsu, value = TRUE)
+```
+
+```
+# character(0)
+```
+
+---
+
+# R Plots
+
+
+```r
+par(mar = c(4, 4, 1, .1))
+plot(cars, pch = 19, col = 'darkgray', las = 1)
+abline(fit, lwd = 2)
+```
+
+![](sochicrim-presentation1_files/figure-html/cars-1.svg)&lt;!-- --&gt;
+
+---
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": true,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

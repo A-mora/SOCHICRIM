@@ -9,7 +9,6 @@ reci_single <- ggplot(data=data_plots, aes(x=Age, y=prob)) +
               se= FALSE, color = "black") + 
   geom_point(aes(color = Prison)) +
   labs(x="Age", y="Recidivism") +
-  ggtitle("Recidivism")  +
   scale_colour_discrete('Prison') +
   theme_bw() +
   theme(legend.position = c(0.9,  0.8),
@@ -32,7 +31,6 @@ reci_varying <- ggplot(data=data_plots, aes(x=Age, y=prob,
               se= FALSE) + 
   geom_point(aes(color = Prison)) +
   labs(x="Age", y="Recidivism") +
-  ggtitle("Recidivism")  +
   scale_colour_discrete('Prison') +
   theme_bw() +
   theme(legend.position = c(0.9,  0.8),
