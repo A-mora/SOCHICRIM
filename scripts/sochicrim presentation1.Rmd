@@ -74,8 +74,8 @@ El efecto del encarcelamiento no es una experiencia uniforme, No existe un **uni
 
 - Existen diferencias en el clima y 'desempeno moral' de las prisiones *some prisons are more survivable than others* (Liebling, 2011)
 
-- El problema del **efecto agregado** del ncarcelamiento  
-'*Cuando se analiza el efecto del encarcelamiento, Las variaciones del efecto que tienen en los individuos quedan **escondidas**'* (Van Ginneken, 2016)
+- El problema del **efecto agregado** del encarcelamiento  
+'*Cuando se analiza el efecto del encarcelamiento, Las variaciones del efecto que tienen en los individuos quedan **escondidas (oscurece)**'* (Van Ginneken, 2016)
 
 Existen diferencias entre el efecto del encarcelamiento y el efecto de la carcel
 
@@ -172,27 +172,8 @@ Como hacer listas de columnas
 ]
 ---
 
-# R Code
 
-```{r comment='#'}
-# a boring regression
-fit = lm(dist ~ 1 + speed, data = cars)
-coef(summary(fit))
-dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
-grep('天', dojutsu, value = TRUE)
-```
 
----
-
-# R Plots
-
-```{r cars, fig.height=4, dev='svg'}
-par(mar = c(4, 4, 1, .1))
-plot(cars, pch = 19, col = 'darkgray', las = 1)
-abline(fit, lwd = 2)
-```
-
----
 
 
 
