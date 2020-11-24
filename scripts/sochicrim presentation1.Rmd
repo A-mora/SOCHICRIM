@@ -103,22 +103,15 @@ layout: true
 .center[Poblacion penal].
 ```{r out.width = '70%', echo = FALSE, fig.align="center"}
 
-knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/all_data.png")
+knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/data%20single%20colour.png")
 
 ```
 ---
-.center[Clonglomerados de prisiones].
+.center[variacion en la poblacion penal]
 ```{r out.width = '70%', echo = FALSE, fig.align="center"}
 
-knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/cluster_prison.png")
+knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/by%20offence.png")
 
-```
-
----
-.center[Variacion dentro de los conglomerados]
-```{r out.width = '60%', echo = FALSE, fig.align="center"}
-
-knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/cluster_prison_offence.png")
 ```
 
 ---
@@ -126,6 +119,13 @@ knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main
 ```{r out.width = '80%', echo = FALSE, fig.align="center"}
 
 knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/reci_single.png")
+```
+
+---
+.center[Clonglomerados de prisiones]]
+```{r out.width = '60%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("https://raw.githubusercontent.com/A-mora/SOCHICRIM/main/figures/cluster_prison_offence.png")
 ```
 
 ---

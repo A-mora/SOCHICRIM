@@ -1,0 +1,15 @@
+Prison,Age,Marital_status,Offence,prob_ind,added_prison,prob
+A,23,single,violent,0.3,0.05,0.35
+A,33,married,non_violent,0.23,0.05,0.28
+A,41,single,non_violent,0.2,0.05,0.25
+A,29,single,violent,0.32,0.05,0.37
+B,25,married,non_violent,0.37,0.03,0.4
+B,21,married,non_violent,0.28,0.03,0.31
+B,22,single,violent,0.29,0.03,0.32
+B,35,married,non_violent,0.22,0.03,0.25
+B,33,married,non_violent,0.25,0.03,0.28
+C,43,married,violent,0.2,0.1,0.3
+C,25,married,violent,0.37,0.1,0.47
+C,29,single,non_violent,0.34,0.1,0.44
+C,45,single,non_violent,0.23,0.1,0.33
+C,26,single,violent,0.35,0.1,0.45
